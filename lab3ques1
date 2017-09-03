@@ -1,0 +1,21 @@
+# lab3ques
+#include <iostream>
+
+using namespace std;
+int main()
+{
+float num1,num2;
+cout<<"enter 1st number\t";
+cin>>num1;
+cout<<"enter 2nd number\t";
+cin>>num2;
+if (num1>num2);
+{
+cout<<"the num enterd is correct =\n";
+}
+else
+{
+cout<<"the num entered is incorrect =\n";
+}
+return 0;
+}
