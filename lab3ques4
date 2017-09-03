@@ -1,0 +1,22 @@
+# lab3ques4#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int num;
+    cout << "enter a number : \n";
+    cin>>num;
+    if (num==0)
+      {
+      cout << "your number is zero : \n;
+      }
+      else
+    if(num%2==0)
+      {
+      cout<<"your number is even : \n;
+      }
+      else
+      cout<<"your number is odd : \n;
+      return 0;
+}
