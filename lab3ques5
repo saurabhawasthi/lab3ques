@@ -1,0 +1,17 @@
+# lab3ques5#include <iostream>
+using namespace std;
+int main()
+{
+int leap year;
+cout<<"enter a year : \n;
+cin>>leap year;
+if(leap year%4)
+{
+cout<<"entered year is leap year : \n;
+}
+else
+{
+cout<<"entered year is not leap year :\n;
+}
+return 0;
+}
