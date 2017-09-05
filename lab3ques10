@@ -1,1 +1,22 @@
-# lab3ques10
+# lab3ques10#include <iostream>
+ using namespace std;
+int main ()
+ {
+    int a,b,c;
+    cout<<"enter 1st angle of triangle :\n";
+    cin>>a;
+    cout<<"enter 2nd angle of triangle :\n";
+    cin>>b;
+    cout<<"enter 3rd angle of trlangle :\n";
+    cout>>c;
+    if(a+b+c==180)
+    {
+    cout<<"these are the angles of a triangle :\n";
+    }
+    else
+    {
+    cout<<"these are not angles of a triangle :\n";
+    }
+    return 0; 
+}
+
