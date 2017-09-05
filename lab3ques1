@@ -9,13 +9,13 @@ cout<<"enter 1st number\t";
 cin>>num1;
 cout<<"enter 2nd number\t";
 cin>>num2;
-if (num1>num2);
+if (num1>num2)
 {
-cout<<"the num enterd is correct =\n";
+cout<<"1st number is greater than 2nd number =\n";
 }
 else
 {
-cout<<"the num entered is incorrect =\n";
+cout<<"the 1st number is less than 2nd number  is  =\n";
 }
 return 0;
 }
