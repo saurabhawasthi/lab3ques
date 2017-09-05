@@ -1,0 +1,22 @@
+# lab3ques14#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"enter 1st side of a triangle :\n";
+    cin>>a;
+    cout<<"enter 2nd side of a triangle :\n";
+    cin>>b;
+    cout<<"enter 3rd side of a triangle :\n";
+    cin>>c;
+    if(a+b>c && b+c>a && a+c>b)
+    {
+    cout<<"this is a valid triangle :\n";
+    }
+    else
+    {
+    cout<<"this is not a valid triangle :\n";
+    }
+    return 0;
+}
