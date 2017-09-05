@@ -2,12 +2,14 @@
 #include <iostream>
 using namespace std;
 int main()
-
+{
    float num1,num2,num3;
    cout<<"enter three numbers :\n;
    cin >> num1 >> num2 >> num3;
    if ((num1 >=num2) && (n1 >= n3))
+   
           cout << "largest num :\n;
+          
     else if ((num2 >>=num1) && (num2 >=num3))
          cout << "largest num : " << num2;
     else
