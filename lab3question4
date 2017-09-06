@@ -6,7 +6,7 @@ int main()
    int n;
    cout<<"enter a number :\n";
    cin>>n;
-   if((n%5) && (n%11))
+   if((n%5==0) && (n%11==0))
    {
    cout<<"the number entered is divisible :\n";
    }
