@@ -5,13 +5,13 @@ int main()
    char ch;
    cout<<"enter character :\n;
    cin>>ch;
-   if((ch>=65) && (ch<90) || (ch>=97) && (ch<=122))
+   if((ch>=65) && (ch<=90) || (ch>=97) && (ch<=122))
 {
-cout<<"the character enterad is alphabate  : \n";
+cout<<"the character enterad is alphabet  : \n";
 }
 else
 {
-cout<<"the character entered is not alphabate :\n";
+cout<<"the character entered is not alphabet :\n";
 }
 return 0;
 }
