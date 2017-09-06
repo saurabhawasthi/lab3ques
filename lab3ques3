@@ -1,9 +1,10 @@
-# lab3ques3
+# lab3ques3  
+#include <iostream>
 using namespace std;
 int main()
 {
 int num;
-cout<< "enter any num :\n;
+cout<< "enter any num :\n";
 cin>>num;
 if(num is >0)
 {
@@ -11,7 +12,7 @@ cout<< "the num entered is positive :\n";
 } 
 else
 {
-cout<<the num is negative :\n";
+cout<<"the num is negative :\n";
 }
 return 0;
 }
