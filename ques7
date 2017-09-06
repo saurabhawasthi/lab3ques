@@ -1,0 +1,18 @@
+# lab3ques7#include <iostream>
+using namespace std;
+int main()
+{
+   char ch;
+   cout<<"enter character :\n;
+   cin>>ch;
+   if((ch>=65) && (ch<90) || (ch>=97) && (ch<=122))
+{
+cout<<"the character enterad is alphabate  : \n";
+}
+else
+{
+cout<<"the character entered is not alphabate :\n";
+}
+return 0;
+}
+
