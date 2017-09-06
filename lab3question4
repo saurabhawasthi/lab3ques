@@ -3,20 +3,16 @@
 using namespace std;
 int main()
 {
-   int n,5,11;
+   int n;
    cout<<"enter a number :\n";
    cin>>n;
-   cout<<"enter 1st number by which n is divisible :\n";
-   cin>>5;
-   cout<<"enter 2nd number by which n is divisible :\n";
-   cin>>11;
    if((n%5) && (n%11))
    {
-   cout<<"the number entered is correct :\n";
+   cout<<"the number entered is divisible :\n";
    }
    else
    {
-   cout<<"the number entered is incorrect :\n;"
+   cout<<"the number entered is not divisible :\n";
    }
    return 0;
 }
