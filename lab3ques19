@@ -1,0 +1,34 @@
+# lab3ques19 #include <iostream>
+using namespace std;
+int main()
+{
+     char percantage, grade;
+     cout<<"enter your grade";
+     cin>>grade;
+     cout<<"enter your percantage :\n";
+     cin>>percantage;
+     switch(grade)
+     {
+    grade 'A':
+    cout<<"percantage >=90%";
+    break;
+    grade 'B':
+    cout<<"percantage >=80%";
+    break;
+    grade 'C':
+    cout<<"percantage >=70%";
+    break;
+    grade 'D':
+    cout<<"percantage >=60%";
+    break;
+    grade 'E':
+    cout<<"percantage >=50%";
+    break;
+    grade 'F':
+    cout<<"percantage >=40%";
+    break;
+    default:
+    cout<<"invalid choice";
+     }
+     return 0;
+}
