@@ -1,0 +1,27 @@
+# lab3ques9
+#include <iostream>
+using namespace std;
+int main()
+{
+    int character,alphabet,number;
+    cout << "enter any character" <<endl;
+    cin>>character;
+    cout << "enter any alphabet" <<endl;
+    cin>>alphabet;
+    cout << "enter any number" <<endl;
+    cin>>number;
+    if(( character > = 65 ) && ( character < = 90 )) || (( character < = 97 ) && ( character < = 122 ))
+    {
+    cout << "the character entered is alphabet" <<endl;
+    }
+    if else (( character > = 48 ) && ( character < = 57 ))
+    {
+    cout << "the character entered is number" <<endl;
+    }
+    else
+    {
+    cout << "the character entered is special character" <<endl;
+    }
+    return 0;
+}
+
