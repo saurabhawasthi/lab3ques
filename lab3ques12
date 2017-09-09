@@ -1,0 +1,26 @@
+# lab3ques12
+#include <iostream>
+ using namespace std;
+ int main()
+ {
+     int month,days;
+     cout<<"Enter month :";
+     cin>>month;
+     switch(month)
+     {
+     case 1 : case 3 : case 5 : case 7 : case 8 : case 10 : case 12 :
+     cout<<"days=31";break;
+     case 4 :
+     case 6 :
+     case 9 :
+     case 11:cout<<"days=30";
+     break;
+     case 2:cout<<"days=28";
+     break;
+     dafault:
+     cout<<"invalid choice";
+     break;
+     }
+     return 0;
+}
+
