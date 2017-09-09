@@ -1,0 +1,20 @@
+# lab3ques18#include <iostream>
+using namespace std;
+int main()
+{
+   int cp,sp;
+   cout<<"enter cost price :\n";
+   cin>>cp;
+   cout<<"enter selling price :\n";
+   cin>>sp;
+   if (sp-cp>0)
+   {
+   cout<<"profit :\n";
+   }
+   else
+   {
+   cout<<"loss :\n";
+   }
+   return 0;
+}
+ 
