@@ -1,0 +1,15 @@
+# lab3ques26
+#include <iostream>
+using namespace std;
+int main()
+{
+   int count;
+   cout<<"print odd number between 1 to 100 :\n";
+   cin>>count;
+   for(int count=0; count<=100; count++)
+   {
+   if(count%2==1)
+   cout<<"count";
+   }
+   return 0;
+}
