@@ -1,0 +1,15 @@
+# lab3ques24#include <iostream>
+using namespace std;
+int main()
+{
+    char ch;int x;
+    cout<<"print alphabet from a to z :\n";
+    cin>>ch;
+    x=ch;
+    while(x>=122)
+    {
+    cout<<ch<<endl;
+    }
+    return 0;
+    }
+
