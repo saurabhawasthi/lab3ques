@@ -1,0 +1,29 @@
+# lab3ques43
+#include <iostream>
+using namespace std;
+
+
+
+float max(float n1,float n2)
+{
+  if(n1!=n2)
+  {
+  float mx=n1>n2?n1:n2;
+  return mx;
+  }
+  else
+  return 0;
+}
+int main()
+{
+  float num1, num2;
+  cout<<"PROGRAM TO PRINT MAXIMUM OF TWO NUMBERS USING FUNCTIONS";
+  cout<<"\n \nEnter two numbers: ";
+  cin>>num1>>num2;
+  float maximum=max(num1, num2);
+  if(maximum!=0)
+  cout<<"\nMaximum of two numbers is: "<<maximum;
+  else
+  cout<<"\nBoth are equal";
+  return 0;
+}
