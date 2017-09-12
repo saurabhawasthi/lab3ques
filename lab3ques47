@@ -1,28 +1,27 @@
-# lab3ques47
-
-#include <iostream>
+ #include <iostream>
 using namespace std;
 
 int main()
 {
-    int n1, n2, max;
+  int n, i;
+  bool isPrime = true;
 
-    cout << "Enter two numbers: ";
-    cin >> n1 >> n2;
+  cout << "Enter a positive integer: ";
+  cin >> n;
 
-    // maximum value between n1 and n2 is stored in max
-    max = (n1 > n2) ? n1 : n2;
+  for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
+  }
+  if (isPrime)
+      cout << "This is a prime number";
+  else
+      cout << "This is not a prime number";
 
-    do
-    {
-        if (max % n1 == 0 && max % n2 == 0)
-        {
-            cout << "LCM = " << max;
-            break;
-        }
-        else
-            ++max;
-    } while (true);
-
-    return 0;
+  return 0;
 }
+
